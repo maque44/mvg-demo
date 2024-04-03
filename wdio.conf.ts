@@ -33,6 +33,11 @@ export const config: WebdriverIOConfig = {
     specs: [
         './test/**/*.feature'
     ],
+    suites: { MvgLogin:        
+        [ './test/features/MvgLogin.feature'
+
+    ]},
+
     // Patterns to exclude.
     exclude: [
         // 'path/to/excluded/files'
