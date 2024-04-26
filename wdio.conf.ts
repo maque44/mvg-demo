@@ -33,8 +33,8 @@ export const config: WebdriverIOConfig = {
     specs: [
         './test/**/*.feature'
     ],
-    suites: { MvgLogin:        
-        [ './test/features/MvgLogin.feature'
+    suites: { Mvg:        
+        [ './test/features/MvgReservaCertificado.feature'
 
     ]},
 

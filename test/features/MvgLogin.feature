@@ -1,6 +1,6 @@
 Feature: Mvg Login
 
-    Scenario: Ingresar al sitio Mvg
+    Scenario: Ingresar al sitio Mvg con credenciales correctas
         Given Maque quiere ingresar al sitio de MVG
         When  selecciona la opción use your certificate
         And   ingresa  información del login en campo certificado "ZMSUEKF2191"  

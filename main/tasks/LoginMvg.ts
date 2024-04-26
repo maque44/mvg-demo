@@ -1,5 +1,5 @@
 import { Duration, Task, Wait } from "@serenity-js/core";
-import { Click, Enter, isVisible } from "@serenity-js/web";
+import { Click, Enter, isVisible} from "@serenity-js/web";
 import { MvgPage } from "../ui/MvgPage.ts";
 
 
@@ -23,9 +23,11 @@ export class LoginMvg {
 
     public static elLastName = (lastName: string) =>
         Task.where(`#actor ingresa información en campo lastName ${lastName}`,
-        Enter.theValue(lastName).into(MvgPage.inputLastName()),
+        Enter.theValue(lastName).into(MvgPage.inputLastName())      
         
     )
+      
+
 
 
 }
